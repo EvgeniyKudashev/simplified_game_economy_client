@@ -55,4 +55,4 @@ def sell_item(login: str, item_name: str):
 
 
 if __name__ == "__main__":
-    os.system('cmd /k "uvicorn main:app --reload"')
+    os.system('cmd /k "python -m uvicorn main:app --reload"')
