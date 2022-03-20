@@ -1,4 +1,3 @@
-from terminal_interface import TextColors
 from validation import validate_login, validate_number
 from terminal_interface import TerminalLogger
 
