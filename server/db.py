@@ -1,6 +1,7 @@
-from config import all_items, earned_credits
+from config import all_items, credits_start, credits_end
 import sqlite3
 import os
+import random
 
 
 class DataBase:
@@ -71,7 +72,7 @@ class DataBase:
 
         cursor.execute("SELECT credits FROM users WHERE username=?", (login,))
         credits = cursor.fetchone()[0]
-        credits += earned_credits
+        credits += random.randrange(credits_start, credits_end, step=1)
 
         cursor.execute("UPDATE users SET credits=? WHERE username=?", (credits, login))
         sqlite_connection.commit()
