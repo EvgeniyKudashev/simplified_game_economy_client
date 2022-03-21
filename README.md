@@ -7,4 +7,4 @@ Steps 1 and 2 should be done for both folders \server and \client
 2. Install all libraries from requirements.txt
 
 3. Run server from \server folder by using command "python main.py"
-4. Run client application frim \client by using command "python main.py"
+4. Run client application from \client folder by using command "python main.py"
