@@ -29,4 +29,3 @@ def dec(func):
         func(a, b)
 
     return wrap
-
