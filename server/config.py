@@ -1,5 +1,3 @@
-import random
-
 items = {
     1: {"name": "Destroyer", "price": 1000},
     2: {"name": "Cruiser", "price": 2000},
