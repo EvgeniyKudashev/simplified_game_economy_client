@@ -20,12 +20,3 @@ for i in items.keys():
 
 credits_start = 500
 credits_end = 1500
-earned_credits = random.randint(credits_start, credits_end)
-
-
-def dec(func):
-    def wrap(a, b):
-        print("!!!")
-        func(a, b)
-
-    return wrap
